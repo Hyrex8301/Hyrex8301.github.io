@@ -52,3 +52,44 @@ nav ul {
 section {
   scroll-margin-top: 1.5rem;
 }
+
+/* The main page (index.html) carries class="home" and gets a wider column so the
+   hobby list has room. Hobby pages keep the plain 65ch body for readable text. */
+body.home {
+  max-width: 80ch;
+}
+
+.hobby-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.hobby-list li {
+  margin-bottom: 1rem;
+}
+
+/* Put the thumbnail and the hobby name on one line. */
+.hobby-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Fix the thumbnail to a square box and crop to fill, so a photo of any shape
+   still lines up with the others. */
+.hobby-list img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* The photo or video at the top of a hobby page: full column width, keeps its
+   own aspect ratio. */
+img.hero {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 0 0 1.5rem;
+}
