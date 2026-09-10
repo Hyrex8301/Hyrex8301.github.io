@@ -181,3 +181,22 @@ Bring the actual error message rather than a description of it; the exact words 
 
 And if anything in this brief is unclear or seems wrong, tell me.
 That is a bug too, and I would rather fix it than have you guess.
+
+---
+
+## Adding photos (this repo's setup)
+
+Each hobby has its own folder under `images/` (`images/parkour/`, `images/climbing/`,
+and so on). To add photos to a hobby:
+
+1. Drop the image files into that hobby's folder.
+2. Open `images/<hobby>/captions.txt` and add one line per image:
+   `filename | a short description for screen readers`.
+   Name one file `hero.jpg` (any extension) to make it the top image and the
+   home-page thumbnail; otherwise the first file alphabetically is used.
+3. Run `python3 gallery.py` from the repo root.
+
+The script writes the hero image and the photo grid into `<hobby>.html`, and the
+thumbnail into `index.html`, touching only the text between the `hero`, `gallery`,
+and `thumb:<hobby>` marker comments. Running it again with no new files changes
+nothing. It is a local helper only; nothing extra is deployed to the site.

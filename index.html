@@ -18,32 +18,41 @@
 
   <!--
     Each link goes to its own page. To add a hobby later, copy one of the hobby
-    pages, then add another <li> here.
-    Thumbnails: add image files under images/ (for example images/climbing-thumb.jpg)
-    and they will appear. Until then the browser shows a broken-image icon.
+    pages, then add another <li> here with its own thumb:<slug>:start/end markers.
+    Thumbnails: drop photos into images/<slug>/ and run  python3 gallery.py
+    It sets each thumbnail below to that hobby's hero image, rewriting only the
+    text between the markers.
   -->
   <ul class="hobby-list">
     <li>
       <a href="climbing.html">
-        <img src="images/climbing-thumb.jpg" alt="" width="64" height="64">
+        <!-- thumb:climbing:start -->
+        <!-- No photo yet. Add one to images/climbing/ and run python3 gallery.py -->
+        <!-- thumb:climbing:end -->
         <span>Climbing</span>
       </a>
     </li>
     <li>
       <a href="parkour.html">
-        <img src="images/parkour-thumb.jpg" alt="" width="64" height="64">
+        <!-- thumb:parkour:start -->
+        <!-- No photo yet. Add one to images/parkour/ and run python3 gallery.py -->
+        <!-- thumb:parkour:end -->
         <span>Parkour</span>
       </a>
     </li>
     <li>
       <a href="video-games.html">
-        <img src="images/video-games-thumb.jpg" alt="" width="64" height="64">
+        <!-- thumb:video-games:start -->
+        <!-- No photo yet. Add one to images/video-games/ and run python3 gallery.py -->
+        <!-- thumb:video-games:end -->
         <span>Video games</span>
       </a>
     </li>
     <li>
       <a href="tennis.html">
-        <img src="images/tennis-thumb.jpg" alt="" width="64" height="64">
+        <!-- thumb:tennis:start -->
+        <!-- No photo yet. Add one to images/tennis/ and run python3 gallery.py -->
+        <!-- thumb:tennis:end -->
         <span>Tennis</span>
       </a>
     </li>

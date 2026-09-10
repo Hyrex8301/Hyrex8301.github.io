@@ -112,3 +112,25 @@ img.hero {
   border-radius: 6px;
   margin: 0 0 1.5rem;
 }
+
+/* Photo grid on a hobby page. gallery.py fills the <ul class="gallery"> from the
+   files in images/<hobby>/. auto-fill makes as many columns as fit, each at
+   least 160px wide, so the grid reflows from one column on a phone to several on
+   a laptop with no media query. */
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 8px;
+}
+
+/* Crop each photo to a uniform 4:3 cell instead of stretching it, so mixed
+   portrait and landscape shots still line up. */
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+}
