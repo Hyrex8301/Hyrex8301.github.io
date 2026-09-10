@@ -5,8 +5,12 @@
    Delete all of it whenever you want. */
 
 :root {
-  /* Makes the page follow the reader's light or dark mode setting, for free. */
-  color-scheme: light dark;
+  /* Force a light page: this theme is white background, blue text, and should
+     not follow a reader's dark mode setting. */
+  color-scheme: light;
+
+  /* The one blue used everywhere: dark enough to read as bold text on white. */
+  --blue: #1b3a8a;
 }
 
 body {
@@ -21,12 +25,19 @@ body {
   padding: 4rem 1.5rem;
   line-height: 1.6;
   font-size: 1.125rem;
+
+  /* Blue-and-white theme. Every element inherits colour and weight from body,
+     so this one place makes all the text bold blue on a white page. */
+  background: #ffffff;
+  color: var(--blue);
+  font-weight: 700;
 }
 
 h1 {
   font-size: 3rem;
   line-height: 1.1;
   margin-bottom: 1.5rem;
+  color: var(--blue);
 }
 
 p {
@@ -38,6 +49,14 @@ h2 {
   line-height: 1.2;
   margin-top: 3rem;
   margin-bottom: 1rem;
+  color: var(--blue);
+}
+
+/* Links stay the theme blue but keep their underline, so they read as links
+   and not just more bold text. */
+a {
+  color: var(--blue);
+  text-decoration: underline;
 }
 
 nav ul {
