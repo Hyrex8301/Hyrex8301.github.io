@@ -2,3 +2,8 @@
 # Lines starting with # are ignored. A file named hero.* becomes the hero image.
 # Example:
 # hero.jpg | Serving on the court at sunset
+4D24DFF3-EE78-402B-95DF-A4790E849CC2_4_5005_c.jpeg | Shaking hands with my doubles partner and co-captain after winning HVALs
+7827617E-252C-4B6D-8795-2AB3EF9EF30B_4_5005_c.jpeg | HVAL champions
+A97DCB89-F923-489C-82A2-5182F68C1878_1_105_c.jpeg | Overhead
+A9DC0672-B2D3-4996-AC97-BBC3B0863D45_1_105_c.jpeg | Forehand
+BC08C884-48D2-4F16-A74F-E3DA3C1ABF01_1_105_c.jpeg | Serving
