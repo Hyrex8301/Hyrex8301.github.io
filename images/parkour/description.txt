@@ -1,3 +1,9 @@
 # This text shows under the "Parkour" heading, above the photos.
 # Lines starting with # are ignored. A blank line starts a new paragraph.
 # Write your description below.
+
+I used to do parkour a lot more when I was younger. I started an Instagram
+page and posted a daily trick for over 1000 days straight. I like the freedom
+it brings and the fact that I can do it pretty much anywhere. My favorite
+trick is a side flip, and my least favorite is a double backflip: I tend to
+get lost in the rotation and have gotten injured doing those before.

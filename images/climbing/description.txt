@@ -1,3 +1,8 @@
 # This text shows under the "Climbing" heading, above the photos.
 # Lines starting with # are ignored. A blank line starts a new paragraph.
 # Write your description below.
+
+I've been climbing for a couple of years now, and I've recently gotten into
+leading and climbing outside. I boulder around V8+ and I'm working toward a
+V10, and I'm in the 5.12 range for sport climbing. I've climbed at a lot of
+different gyms and crags, and my favorite so far has been B-Pump Ogikubo.
