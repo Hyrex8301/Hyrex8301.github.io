@@ -104,13 +104,11 @@ body.home {
   border-radius: 6px;
 }
 
-/* The photo or video at the top of a hobby page: full column width, keeps its
-   own aspect ratio. */
-img.hero {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin: 0 0 1.5rem;
+/* The page description under a hobby heading, from description.txt. Normal
+   weight so it reads as prose against the bold body text. */
+p.lead {
+  font-weight: 400;
+  margin-top: 0;
 }
 
 /* Photo grid on a hobby page. gallery.py fills the <ul class="gallery"> from the
@@ -126,11 +124,24 @@ img.hero {
   gap: 8px;
 }
 
-/* Crop each photo to a uniform 4:3 cell instead of stretching it, so mixed
-   portrait and landscape shots still line up. */
-.gallery img {
+.gallery figure {
+  margin: 0;
+}
+
+/* Crop each photo (and size each video) to a uniform 4:3 cell instead of
+   stretching it, so mixed portrait and landscape shots still line up. */
+.gallery img,
+.gallery video {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 6px;
+}
+
+/* The visible caption under a photo, taken from captions.txt. Lighter than the
+   bold body text so it reads as a caption. */
+figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 400;
 }

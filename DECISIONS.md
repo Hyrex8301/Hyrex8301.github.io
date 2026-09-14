@@ -1,48 +1,22 @@
 # Decision log
 
-Your methods section. About one page total.
-
-Answer these as you go, not the night before it is due.
-Specifics beat polish - a short honest answer is worth more than a long vague one.
-
-Delete these instructions when you are done, or leave them. It does not matter.
-
 ---
 
 ## 1. What did you set out to build, and what changed?
 
-What you wanted at the start, and what is actually live now.
-Name one thing you dropped or added along the way, and why.
-
-*Your answer here.*
+I am currently writing this at the very start of the project. I am wanting to make a page of all my prresent and previos hobbies. Now I am going to have a page per hobbie instead of just having one page. I think this will allow for more creativity in the long run. 
 
 ---
 
 ## 2. A fork in the road
 
-Name one real choice where you could have gone two ways.
-Plain HTML or a framework. One page or several. Your own CSS or someone's template.
-What goes on the front page and what does not.
-
-Say which you picked, what the alternative was, and what you gave up by not taking it.
-
-"There was no alternative" is not an answer. Find the fork.
-
-*Your answer here.*
+I found a fork in the road when I was deciding on multiple pages or 1. As of now I decided on 1 page in order to keep the UI more simple and easier to navigate. However, this means that I won't be able to have as much information on all my hobbies. I decided to switch to a main page and then having links to each of my hobbies on seperate pages. This allows for more creativity on each page. 
 
 ---
 
 ## 3. Where you overruled the agent
 
-One time Claude suggested, wrote, or claimed something and you did not take it.
-
-What did it do? How did you notice? What did you do instead?
-
-If it genuinely never happened, say so plainly, and then say what you would have had to
-check in order to notice. Being honest here costs you far less than a story you cannot
-defend when you record your video.
-
-*Your answer here.*
+I was working in planning mode and Claude suggested deleting some of my hobbies to make the page easier to read. I did not agree to this and ended up keeping all my hobbies but switched to multiple pages to make it so I could keep them all. Claude wanted to just make the heading blue when I wanted the whole website to be blue and white themed. I reviewed my plan and had to get all the text to be blue with the background white. The agent gave me duplicate images and captions when loading up a specific page, I changed this to only have 1 image. Also, the heading for the page was below the images, I wanted it to be above them. 
 
 ---
 
@@ -56,6 +30,8 @@ A check that could not have failed is not a check.
 Link to your `verification/` folder.
 
 *Your answer here.*
+
+I chose to run a python script so the site stays HTML and CSS. I checked this by adding photos, confirming the grid rendered, and reran it to confirm it was repeatable. 
 
 ---
 

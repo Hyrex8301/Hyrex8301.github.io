@@ -184,19 +184,25 @@ That is a bug too, and I would rather fix it than have you guess.
 
 ---
 
-## Adding photos (this repo's setup)
+## Adding photos and videos (this repo's setup)
 
 Each hobby has its own folder under `images/` (`images/parkour/`, `images/climbing/`,
-and so on). To add photos to a hobby:
+and so on). To add photos or videos to a hobby:
 
-1. Drop the image files into that hobby's folder.
-2. Open `images/<hobby>/captions.txt` and add one line per image:
-   `filename | a short description for screen readers`.
-   Name one file `hero.jpg` (any extension) to make it the top image and the
-   home-page thumbnail; otherwise the first file alphabetically is used.
-3. Run `python3 gallery.py` from the repo root.
+1. Drop the files into that hobby's folder. Photos (`.jpg`, `.jpeg`, `.png`,
+   `.webp`, `.gif`, `.avif`) and videos (`.mp4`, `.mov`, `.webm`) can mix in the
+   same folder.
+2. Open `images/<hobby>/captions.txt` and add one line per file:
+   `filename | a caption`. The caption shows on the page under that photo or
+   video and, for photos, is also used as its `alt` text. Name one photo
+   `hero.jpg` (any image extension) to make it the home-page thumbnail;
+   otherwise the first photo alphabetically is used. Videos are never chosen as
+   the thumbnail.
+3. Write the page's description in `images/<hobby>/description.txt`. It shows
+   right under the heading. A blank line starts a new paragraph.
+4. Run `python3 gallery.py` from the repo root.
 
-The script writes the hero image and the photo grid into `<hobby>.html`, and the
-thumbnail into `index.html`, touching only the text between the `hero`, `gallery`,
-and `thumb:<hobby>` marker comments. Running it again with no new files changes
+The script writes the description and the media grid into `<hobby>.html`, and the
+thumbnail into `index.html`, touching only the text between the `lead`, `gallery`,
+and `thumb:<hobby>` marker comments. Running it again with no changes does
 nothing. It is a local helper only; nothing extra is deployed to the site.
