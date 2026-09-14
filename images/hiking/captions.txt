@@ -1,0 +1,4 @@
+# One line per image:  filename | short description for screen readers
+# Lines starting with # are ignored. A file named hero.* becomes the hero image.
+# Example:
+# hero.jpg | At the summit after a long climb up

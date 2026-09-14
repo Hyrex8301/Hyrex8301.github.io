@@ -1,0 +1,8 @@
+# This text shows under the "Weightlifting" heading, above the photos.
+# Lines starting with # are ignored. A blank line starts a new paragraph.
+# Write your description below.
+
+I started weightlifting in high school, though I don't lift as much these
+days, just enough to maintain what I've built. My all-time PRs are a 260
+bench, a 400 deadlift, and a 365 squat. Now I focus more on bodyweight
+training instead.

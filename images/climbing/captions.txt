@@ -2,7 +2,7 @@
 # Lines starting with # are ignored. A file named hero.* becomes the hero image.
 # Example:
 # hero.jpg | Me topping out a boulder at the climbing gym
-4B75F311-D1F3-4174-B4D2-8FD5E62AE08F_1_105_c.jpeg | Saw Toby Robberts at B-PUMP
+4B75F311-D1F3-4174-B4D2-8FD5E62AE08F_1_105_c.jpeg | Saw Toby Roberts at B-PUMP
 4D29E7E4-F9E9-4D4D-A57E-E1B86F4B0C47_1_105_c.jpeg | Deep water soloing at Devil's Glen
 868D5A21-B8AD-410B-8319-9B3877476BF7_1_102_o.jpeg | Halloween climbing
 BEA57572-B3FA-4F4E-9CFF-D58DFBC645FB_1_105_c.jpeg | Night climb at North Table

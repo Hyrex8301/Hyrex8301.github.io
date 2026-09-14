@@ -2,7 +2,7 @@
 # Lines starting with # are ignored. A blank line starts a new paragraph.
 # Write your description below.
 
-I've been playing tennis ever since I was very little. I play singles mainly,
-but I love to play doubles when I can, and I'm on the Colorado School of Mines
-tennis team. I used to work as a tennis coach, and I've also maintained clay
-courts.
+I've been playing tennis for as long as I can remember. Singles is my main
+focus, though I enjoy doubles whenever the chance comes up, and I currently
+play for the Colorado School of Mines tennis team. Beyond playing, I've
+worked as a tennis coach and helped maintain clay courts.

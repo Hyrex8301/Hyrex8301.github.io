@@ -2,7 +2,7 @@
 # Lines starting with # are ignored. A blank line starts a new paragraph.
 # Write your description below.
 
-I've been climbing for a couple of years now, and I've recently gotten into
-leading and climbing outside. I boulder around V8+ and I'm working toward a
-V10, and I'm in the 5.12 range for sport climbing. I've climbed at a lot of
-different gyms and crags, and my favorite so far has been B-Pump Ogikubo.
+I've been climbing for a couple of years now, and I've recently branched into
+lead climbing and climbing outdoors. I currently boulder in the V8+ range,
+with a V10 as my next goal, and sport climb around 5.12. I've climbed at gyms
+and crags all over, and my favorite so far has been B-Pump Ogikubo.

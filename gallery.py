@@ -34,7 +34,16 @@ IMAGES = ROOT / "images"
 
 # Hobby slugs. Each needs an images/<slug>/ folder and a <slug>.html page.
 # Add a slug here when you add a hobby.
-HOBBIES = ["climbing", "parkour", "tennis", "video-games"]
+HOBBIES = [
+    "climbing",
+    "parkour",
+    "tennis",
+    "hiking",
+    "weightlifting",
+    "video-games",
+    "content-creation",
+    "misc",
+]
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif"}
 VIDEO_EXTS = {".mp4", ".mov", ".webm"}

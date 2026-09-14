@@ -2,9 +2,9 @@
 # Lines starting with # are ignored. A blank line starts a new paragraph.
 # Write your description below.
 
-Ever since I was little I've loved video games. I started out playing
-Minecraft on my iPad, and my favorite games these days are Minecraft and
-Rocket League. In Rocket League I'm currently Champ 2 and working toward
-Grand Champ, and I've made over 7,000 trading items in the game. Now I mostly
-like playing games with my friends when I have free time, to take my mind off
-things.
+I've loved video games for as long as I can remember, starting out with
+Minecraft on my iPad. These days my favorites are still Minecraft and Rocket
+League. In Rocket League I'm currently ranked Champ 2 and working toward
+Grand Champ, and along the way I've made over 7,000 trading items in-game.
+Mostly, though, I like playing with friends in my free time as a way to
+unwind.

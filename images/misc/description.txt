@@ -1,0 +1,8 @@
+# This text shows under the "Misc" heading, above the photos.
+# Lines starting with # are ignored. A blank line starts a new paragraph.
+# Write your description below.
+
+This page is for the things I love spending time on that don't take up a huge
+part of my life, at least not yet. Right now that includes kendama, Catan,
+and Pokemon. They might grow into something bigger down the road, but for now
+they're just fun things I do on the side.
