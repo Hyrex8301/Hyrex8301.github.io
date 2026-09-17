@@ -24,39 +24,33 @@
     between the start/end markers, so edit freely around them.
   -->
   <!-- gallery:start -->
-  <ul class="gallery">
-    <li>
-      <figure>
-        <img src="images/tennis/4D24DFF3-EE78-402B-95DF-A4790E849CC2_4_5005_c.jpeg" alt="Shaking hands with my doubles partner and co-captain after winning HVALs">
-        <figcaption>Shaking hands with my doubles partner and co-captain after winning HVALs</figcaption>
-      </figure>
-    </li>
-    <li>
-      <figure>
-        <img src="images/tennis/7827617E-252C-4B6D-8795-2AB3EF9EF30B_4_5005_c.jpeg" alt="HVAL champions">
-        <figcaption>HVAL champions</figcaption>
-      </figure>
-    </li>
-    <li>
-      <figure>
-        <img src="images/tennis/A97DCB89-F923-489C-82A2-5182F68C1878_1_105_c.jpeg" alt="Overhead">
-        <figcaption>Overhead</figcaption>
-      </figure>
-    </li>
-    <li>
-      <figure>
-        <img src="images/tennis/A9DC0672-B2D3-4996-AC97-BBC3B0863D45_1_105_c.jpeg" alt="Forehand">
-        <figcaption>Forehand</figcaption>
-      </figure>
-    </li>
-    <li>
-      <figure>
-        <img src="images/tennis/BC08C884-48D2-4F16-A74F-E3DA3C1ABF01_1_105_c.jpeg" alt="Serving">
-        <figcaption>Serving</figcaption>
-      </figure>
-    </li>
-  </ul>
+  <div class="carousel">
+    <figure class="carousel-slide">
+      <img src="images/tennis/4D24DFF3-EE78-402B-95DF-A4790E849CC2_4_5005_c.jpeg" alt="Shaking hands with my doubles partner and co-captain after winning HVALs">
+      <figcaption>Shaking hands with my doubles partner and co-captain after winning HVALs</figcaption>
+    </figure>
+    <figure class="carousel-slide" hidden>
+      <img src="images/tennis/7827617E-252C-4B6D-8795-2AB3EF9EF30B_4_5005_c.jpeg" alt="HVAL champions">
+      <figcaption>HVAL champions</figcaption>
+    </figure>
+    <figure class="carousel-slide" hidden>
+      <img src="images/tennis/A97DCB89-F923-489C-82A2-5182F68C1878_1_105_c.jpeg" alt="Overhead">
+      <figcaption>Overhead</figcaption>
+    </figure>
+    <figure class="carousel-slide" hidden>
+      <img src="images/tennis/A9DC0672-B2D3-4996-AC97-BBC3B0863D45_1_105_c.jpeg" alt="Forehand">
+      <figcaption>Forehand</figcaption>
+    </figure>
+    <figure class="carousel-slide" hidden>
+      <img src="images/tennis/BC08C884-48D2-4F16-A74F-E3DA3C1ABF01_1_105_c.jpeg" alt="Serving">
+      <figcaption>Serving</figcaption>
+    </figure>
+    <button type="button" class="carousel-prev" aria-label="Previous">&larr;</button>
+    <button type="button" class="carousel-next" aria-label="Next">&rarr;</button>
+    <p class="carousel-counter">1 / 5</p>
+  </div>
   <!-- gallery:end -->
 
+  <script src="carousel.js"></script>
 </body>
 </html>

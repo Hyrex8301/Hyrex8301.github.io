@@ -130,28 +130,37 @@ def replace_region(text: str, marker: str, new_inner: str, path: Path) -> str:
 
 
 def build_gallery(slug: str, media: list[str], captions: dict[str, str]) -> str:
+    """A one-at-a-time carousel: all slides in the page, carousel.js shows one."""
     if not media:
         return (
             f"  <!-- Gallery grid: every photo and video in images/{slug}/. "
             f"Add files and run python3 gallery.py -->"
         )
-    lines = ['  <ul class="gallery">']
-    for name in media:
+    lines = ['  <div class="carousel">']
+    for i, name in enumerate(media):
         src = html.escape(f"images/{slug}/{name}", quote=True)
         caption = captions.get(name, "")
         is_video = Path(name).suffix.lower() in VIDEO_EXTS
-        lines.append("    <li>")
-        lines.append("      <figure>")
+        hidden = "" if i == 0 else " hidden"
+        lines.append(f'    <figure class="carousel-slide"{hidden}>')
         if is_video:
-            lines.append(f'        <video src="{src}" controls></video>')
+            lines.append(f'      <video src="{src}" controls></video>')
         else:
             alt = html.escape(caption, quote=True)
-            lines.append(f'        <img src="{src}" alt="{alt}">')
+            lines.append(f'      <img src="{src}" alt="{alt}">')
         if caption:
-            lines.append(f"        <figcaption>{html.escape(caption)}</figcaption>")
-        lines.append("      </figure>")
-        lines.append("    </li>")
-    lines.append("  </ul>")
+            lines.append(f"      <figcaption>{html.escape(caption)}</figcaption>")
+        lines.append("    </figure>")
+    lines.append(
+        '    <button type="button" class="carousel-prev" aria-label="Previous">'
+        "&larr;</button>"
+    )
+    lines.append(
+        '    <button type="button" class="carousel-next" aria-label="Next">'
+        "&rarr;</button>"
+    )
+    lines.append(f'    <p class="carousel-counter">1 / {len(media)}</p>')
+    lines.append("  </div>")
     return "\n".join(lines)
 
 
