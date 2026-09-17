@@ -2,3 +2,18 @@
 # Lines starting with # are ignored. A file named hero.* becomes the hero image.
 # Example:
 # hero.jpg | At the summit after a long climb up
+IMG_1346.JPG | Fuji summit!
+IMG_1399.JPG | Exploring the Hozugawa River
+IMG_1411.JPG | Yamadera stairs
+IMG_1439.JPG | Fun hike in the rain near the ski town of Yuzawa
+IMG_1442.JPG | Hiking back to our Airbnb after a swim in a waterfall
+IMG_1456.JPG | Oregon coast hike
+IMG_1492.JPG | The Loft at Longs Peak summit
+IMG_1589.mp4 | Fun scrambling at Longs Peak
+IMG_1598_2.jpg | Longs Peak summit
+IMG_3634.jpg | South Table fun
+IMG_3916.jpg | Mount Bierstadt summit
+IMG_4147.JPG | Mount Galbraith summit with scooters
+IMG_6412.JPG | A hike near Sisters
+IMG_8468.JPG | Fun hike in Kyoto
+IMG_9048.JPG | Fun hike in New York rain
