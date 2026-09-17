@@ -2,3 +2,7 @@
 # Lines starting with # are ignored. A file named hero.* becomes the hero image.
 # Example:
 # hero.jpg | My kendama collection
+IMG_1250.JPG | Hit Diamond rank in Catan for the first time
+IMG_3153.jpeg | Tough Mudder with friends
+IMG_3570.JPG | My first ultra marathon
+IMG_5182.PNG | 50-miler complete

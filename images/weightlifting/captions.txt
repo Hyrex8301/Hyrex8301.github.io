@@ -2,3 +2,8 @@
 # Lines starting with # are ignored. A file named hero.* becomes the hero image.
 # Example:
 # hero.jpg | Working up to a new PR on deadlift
+2F49F464-C95E-4401-B8A2-65BAB7D6A27F_1_105_c.jpeg | Midnight back double bicep pose
+IMG_2863.jpeg | Planking with friends
+IMG_3077.mp4 | Deadlifting on a BOSU ball
+IMG_3193.mp4 | Throwing weight around
+IMG_5085.jpeg | Lifting underwater with friends
