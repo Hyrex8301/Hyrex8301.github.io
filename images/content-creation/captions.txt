@@ -2,3 +2,6 @@
 # Lines starting with # are ignored. A file named hero.* becomes the hero image.
 # Example:
 # hero.jpg | Filming a video for the channel
+Copy of ONE BLOCK.png | My favorite thumbnail I've made
+Nothing To Tw emeralds.png | One of the first thumbnails I ever made
+shortcut.png | A fun, minimalist thumbnail
