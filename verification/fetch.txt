@@ -1,26 +1,26 @@
 HTTP/2 200 
 server: GitHub.com
 content-type: text/html; charset=utf-8
-last-modified: Thu, 17 Sep 2026 17:40:09 GMT
+last-modified: Mon, 21 Sep 2026 18:45:00 GMT
 access-control-allow-origin: *
 strict-transport-security: max-age=31556952
-etag: "6aac25f9-ce6"
-expires: Thu, 17 Sep 2026 17:59:52 GMT
+etag: "6ab17b2c-cf8"
+expires: Mon, 21 Sep 2026 19:04:17 GMT
 cache-control: max-age=600
 x-proxy-cache: MISS
-x-github-request-id: 5FD6:956DA:17EA41C:19B4D38:6AAC283F
+x-github-request-id: 887E:1C6E16:1BA692:1CEC55:6AB17D58
 x-github-edge-region: iad
 accept-ranges: bytes
-age: 108
-date: Thu, 17 Sep 2026 17:51:40 GMT
+age: 157
+date: Mon, 21 Sep 2026 18:56:54 GMT
 via: 1.1 varnish
-x-served-by: cache-den-kden1300028-DEN
+x-served-by: cache-dfw-kdfw8210110-DFW
 x-cache: HIT
 x-cache-hits: 0
-x-timer: S1789667501.562742,VS0,VE1
+x-timer: S1790017014.360537,VS0,VE1
 vary: Accept-Encoding
-x-fastly-request-id: acc23ff3bcf453e21d58f078390982d2012c329c
-content-length: 3302
+x-fastly-request-id: d48a5dd25bba2a919ef4e4447d721063e58f882f
+content-length: 3320
 
 <!doctype html>
 <html lang="en">
@@ -87,7 +87,7 @@ content-length: 3302
     <li>
       <a href="weightlifting.html">
         <!-- thumb:weightlifting:start -->
-        <!-- No photo yet. Add one to images/weightlifting/ and run python3 gallery.py -->
+        <img src="images/weightlifting/2F49F464-C95E-4401-B8A2-65BAB7D6A27F_1_105_c.jpeg" alt="" width="64" height="64">
         <!-- thumb:weightlifting:end -->
         <span>Weightlifting</span>
       </a>
@@ -95,7 +95,7 @@ content-length: 3302
     <li>
       <a href="video-games.html">
         <!-- thumb:video-games:start -->
-        <!-- No photo yet. Add one to images/video-games/ and run python3 gallery.py -->
+        <img src="images/video-games/IMG_1580.JPG" alt="" width="64" height="64">
         <!-- thumb:video-games:end -->
         <span>Video games</span>
       </a>
@@ -103,7 +103,7 @@ content-length: 3302
     <li>
       <a href="content-creation.html">
         <!-- thumb:content-creation:start -->
-        <!-- No photo yet. Add one to images/content-creation/ and run python3 gallery.py -->
+        <img src="images/content-creation/Copy of ONE BLOCK.png" alt="" width="64" height="64">
         <!-- thumb:content-creation:end -->
         <span>Content creation</span>
       </a>
@@ -111,7 +111,7 @@ content-length: 3302
     <li>
       <a href="misc.html">
         <!-- thumb:misc:start -->
-        <!-- No photo yet. Add one to images/misc/ and run python3 gallery.py -->
+        <img src="images/misc/IMG_1250.JPG" alt="" width="64" height="64">
         <!-- thumb:misc:end -->
         <span>Misc</span>
       </a>
