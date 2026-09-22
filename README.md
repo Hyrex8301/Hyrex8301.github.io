@@ -1,5 +1,7 @@
 # Project 1 - Build Your Personal Website
 
+**Live site: [hyrex8301.github.io](https://hyrex8301.github.io)**
+
 **CSCI 498E / 598E - Coding with AI Agents**
 
 | | |
